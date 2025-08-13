@@ -90,7 +90,7 @@
 .firework {
   position: absolute;
   bottom: 20%;
-  left: 50%;
+  left: 10%;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -107,6 +107,10 @@
 .firework.delay2 {
   animation-delay: 1s;
   left: 70%;
+}
+.firework.delay3 {
+  animation-delay: 2s;
+  left: 90%;
 }
 
 @keyframes explode {
